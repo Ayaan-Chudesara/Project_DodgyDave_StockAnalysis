@@ -42,5 +42,4 @@ const apiKeyGemini = "";
 
 
 
-
-*The "TestAI.js" file is a practice file for communication to the Gemini Api and is not needed for the project to run.*
+### *The "TestAI.js" file is a practice file for communication to the Gemini Api and is not needed for the project to run.*
