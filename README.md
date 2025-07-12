@@ -40,3 +40,5 @@ You need to obtain an API key from *Google AI Studio*, and provide it explicitly
 
 const apiKeyGemini = ""; 
 
+
+*The TessAI.js file is a practice file for communication to the Gemini Api and is not needed for the project to run.*
