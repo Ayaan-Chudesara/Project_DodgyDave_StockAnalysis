@@ -1,4 +1,5 @@
-Stock Analysis Report Generator
+#H1 Stock Analysis Report Generator
+
 This project demonstrates a simplified application that fetches historical stock data and uses the Google Gemini AI model to generate a financial report with a buy/sell/hold recommendation.
 
 Project Overview
@@ -22,7 +23,7 @@ Generates a text-based financial report with a clear buy/sell/hold recommendatio
 Includes basic error handling for API calls.
 
 
-API Keys
+#API Keys
 This project uses two external APIs, each requiring an API key:
 
 Polygon.io API Key:
@@ -35,8 +36,7 @@ const apiKeyPolygon = "YOUR_POLYGON_API_KEY_HERE"; // Replace with your actual k
 
 Google Gemini API Key:
 
-For this project, when running in a Google Canvas environment, the Gemini API key (apiKeyGemini) is automatically provided by the environment. You can leave it as an empty string:
+You need to obtain an API key from Google AI Studio, and provide it explicitly to the constant.
 
-const apiKeyGemini = ""; // This is automatically provided by the Canvas environment
+const apiKeyGemini = ""; 
 
-If you were to run this code outside of a Canvas environment, you would typically obtain a Gemini API key from Google AI Studio and provide it explicitly.
