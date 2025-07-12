@@ -1,4 +1,4 @@
-#H1 Stock Analysis Report Generator
+# Stock Analysis Report Generator
 
 This project demonstrates a simplified application that fetches historical stock data and uses the Google Gemini AI model to generate a financial report with a buy/sell/hold recommendation.
 
@@ -11,7 +11,7 @@ AI-Powered Analysis: The fetched stock data is then sent to the Google Gemini AP
 
 This simplified version focuses on the backend logic and outputs directly to the console.
 
-Features
+# Features
 Fetches daily aggregate stock data for a hardcoded ticker (e.g., TSLA).
 
 Integrates with Polygon.io for real-time and historical stock data.
@@ -23,12 +23,12 @@ Generates a text-based financial report with a clear buy/sell/hold recommendatio
 Includes basic error handling for API calls.
 
 
-#API Keys
+# API Keys
 This project uses two external APIs, each requiring an API key:
 
 Polygon.io API Key:
 
-You need to obtain an API key from Polygon.io. They offer a free tier for developers.
+You need to obtain an API key from *Polygon.io*. They offer a free tier for developers.
 
 Once you have your key, replace "YOUR_POLYGON_API_KEY_HERE" in the apiKeyPolygon constant within index.js (or your main JavaScript file) with your actual Polygon.io API key.
 
@@ -36,7 +36,7 @@ const apiKeyPolygon = "YOUR_POLYGON_API_KEY_HERE"; // Replace with your actual k
 
 Google Gemini API Key:
 
-You need to obtain an API key from Google AI Studio, and provide it explicitly to the constant.
+You need to obtain an API key from *Google AI Studio*, and provide it explicitly to the constant.
 
 const apiKeyGemini = ""; 
 
